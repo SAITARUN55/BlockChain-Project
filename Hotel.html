@@ -1,0 +1,135 @@
+<html>
+<head>
+<title>Hotel Registration Form</title>
+
+</head>
+ <style>
+ 	h3{
+  font-family: Calibri; 
+  font-size: 25pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:SlateBlue;
+  text-align: center; 
+  text-decoration: underline
+}
+table{
+  font-family: Calibri; 
+  color:white; 
+  font-size: 11pt; 
+  font-style: normal;
+  font-weight: bold;
+  text-align:; 
+  background-color: SlateBlue; 
+  border-collapse: collapse; 
+  border: 2px solid navy
+}
+table.inner{
+  border: 0px
+}
+ </style>
+<body>
+<h3>HOTEL REGISTRATION FORM</h3>
+
+ 
+<table align="center" cellpadding = "10">
+ 
+<!----- First Name ---------------------------------------------------------->
+<tr>
+<td>FIRST NAME</td>
+<td><input type="text" name="First_Name" maxlength="30"/>
+</td>
+</tr>
+ 
+<!----- Last Name ---------------------------------------------------------->
+<tr>
+<td>LAST NAME</td>
+<td><input type="text" name="Last_Name" maxlength="30"/>
+</td>
+</tr>
+ 
+ 
+<!----- Gender ----------------------------------------------------------->
+<tr>
+<td>GENDER</td>
+<td>
+Male <input type="radio" name="Gender" value="Male" />
+Female <input type="radio" name="Gender" value="Female" />
+</td>
+</tr>
+
+<!----Age---->
+<tr>
+<td>AGE</td>
+<td>
+<input type="text" name="Age" maxlength="2" />
+</td>
+</tr>  
+
+<!----- Email Id ---------------------------------------------------------->
+<tr>
+<td>EMAIL ID</td>
+<td><input type="text" name="Email_Id" maxlength="100" /></td>
+</tr>
+
+
+<!----- Nationality ---------------------------------------------------------->
+<tr>
+<td>NATIONALITY</td>
+<td><input type="text" name="Country" value="India" readonly="readonly" /></td>
+</tr>
+
+
+<!----- Mobile Number ---------------------------------------------------------->
+<tr>
+<td>MOBILE NUMBER</td>
+<td>
+<input type="text" name="Mobile_Number" maxlength="10" />
+(10 digit number)
+</td>
+</tr>
+
+<!----- No. of days stayed ---------------------------------------------------------->
+<tr>
+<td>No. of Days Stayed</td>
+<td>
+<input type="text" name="Aadhar_Number" maxlength="2" />
+</td>
+</tr> 
+
+<!----Check-in---->
+<tr>
+  <td>Check-in</td>
+  <td><input type="date" name="bday"/></td>
+</tr>
+
+
+<!----Check-out---->
+<tr>
+  <td>Check-out</td>
+  <td><input type="date" name="bday"/></td>
+</tr>
+
+
+<!----- Aadhar Number ---------------------------------------------------------->
+<tr>
+<td>Aadhar Number</td>
+<td>
+<input type="text" name="Aadhar_Number" maxlength="14" />
+(14 digit number)
+</td>
+</tr> 
+ 
+<!----- Submit and Reset ------------------------------------------------->
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+ 
+</form>
+ 
+</body>
+</html>
